@@ -3,6 +3,10 @@ A Express.js REST service to fetch weather forecast for a given location and sen
 
 Clone repo
 
+Run Command:
+
+npm i
+
 When deploying locally ,Configure default.json file un config folder :
 
 {
@@ -17,7 +21,8 @@ When deploying locally ,Configure default.json file un config folder :
 
 When Deploying to Production, update production.json same way as above, and change set NODE_ENV="production" environment variable on the machine.
 
-Run npm start
+Run Command:
+npm start
 
 Access weather forecast for a locationn by calling service
 
